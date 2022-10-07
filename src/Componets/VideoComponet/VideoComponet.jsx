@@ -2,7 +2,7 @@ import React from "react";
 
 const VideoComponet = () => (
   
-  <video width="" height="" controls>
+  <video width="800px" height="" controls className="video-player">
     <source src=""/>
   </video>
 )
