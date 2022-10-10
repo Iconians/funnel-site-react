@@ -1,22 +1,22 @@
 import React from "react";
 import InputBase from "../InputBase/InputBase";
 
-const Section3 = () => (
+const Section3 = ({open}) => (
 
   <section>
-          <div>
+          <div className="what-I-get">
             <p>What do I get?</p>
             <div className="chart-grid">
 
             </div>
-            <InputBase />
+            <InputBase open={open}/>
+          </div>
+          <div className="possible-div">
+            <p>how is it possible?</p>
+            <p>By maximizing the tech that everyone carries</p>
           </div>
           <div>
-            <p>how is it possible</p>
-            <p>By maximizing the teck that everyone carries</p>
-          </div>
-          <div>
-            <div>
+            <div className="cant-I-hire-someone-div">
               <p>
                 Why can't I just hire someone to create the same app for me?
               </p>
@@ -25,7 +25,7 @@ const Section3 = () => (
                 the money invested if it doesn't go well.
               </p>
             </div>
-            <div>
+            <div className="buy-your-app-div">
               <p>
                 How much to buy your app for my company?
               </p>

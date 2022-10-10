@@ -1,0 +1,10 @@
+.input-root {
+  padding: 20px 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  font-size: 25px;
+  background-color: #1f88ff;
+  border: none;
+  cursor: pointer
+}

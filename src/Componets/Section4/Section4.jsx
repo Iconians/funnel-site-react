@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet"
 const Section4 = () => (
   
   <section>
-  <div>
+  <div className="waist-months-div">
     <p>
       What if I waist 3 months and don't make more money?
     </p>
