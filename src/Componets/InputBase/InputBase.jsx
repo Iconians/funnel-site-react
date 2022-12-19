@@ -1,9 +1,17 @@
 import React from "react";
-import "./InputBase.css"
+import { useAppContext } from "../../providers/app.provider";
+import "./InputBase.css";
 
-const InputBase = ({open}) => (
-
-  <input className="input-root" type="button" value="Schedule" onClick={open} />
-);
+const InputBase = () => {
+  const { handleOpen } = useAppContext();
+  return (
+    <input
+      className="input-root"
+      type="button"
+      value="Schedule"
+      onClick={handleOpen}
+    />
+  );
+};
 
 export default InputBase;

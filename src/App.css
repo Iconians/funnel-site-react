@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
-}
+.video-parent-div {margin-top: 7rem;}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.video-player {border-radius: 10px;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.description-div {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.guarantee-div {
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.guarantee-statement {max-width: 500px}
+
+.guarantee-stamp {
+  margin-left: 100px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  width: 185px;
+}
+
+.who-div, 
+.results-div, 
+.what-I-need-to-div,
+.what-I-get,
+.cant-I-hire-someone-div,
+.buy-your-app-div,
+.waist-months-div
+{
+  max-width: 700px;
+  margin: auto;
 }

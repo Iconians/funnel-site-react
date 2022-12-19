@@ -11,10 +11,12 @@
   position:fixed;
   background: white;
   width: 80%;
-  height: auto;
+  height: 100%;
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);
+  overflow: auto;
+  color: black;
 }
 
 .display-block {
@@ -23,4 +25,15 @@
 
 .display-none {
   display: none;
+}
+
+.input {
+  padding: 20px 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  font-size: 25px;
+  background-color: #1f88ff;
+  border: none;
+  cursor: pointer
 }
