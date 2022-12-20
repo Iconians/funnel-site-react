@@ -1,35 +1,89 @@
-.video-parent-div {margin-top: 7rem;}
+.video-parent-div {
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .video-player {border-radius: 10px;}
 
 .description-div {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  width: 800px;
+  margin: auto;
+}
+
+.short-description {
+  border: 2px solid black;
+  width: 500px;
+  height: 300px;
+}
+
+.description-img {
+  height: 300px;
+  border: 2px solid black;
+  width: 200px;
 }
 
 .guarantee-div {
   display: flex;
   justify-content: center;
+  height: 200px;
+  margin-top: 80px;
 }
 
-.guarantee-statement {max-width: 500px}
+.guarantee-statement {
+  max-width: 500px;
+  height: 200px;
+}
+
+.guarantee-statement > p {margin-top: 12%;}
 
 .guarantee-stamp {
   margin-left: 100px;
-  background-color: white;
+  background-color: goldenrod;
   color: black;
   border-radius: 50%;
   width: 185px;
 }
 
+.guarantee-stamp > p {
+  width: fit-content;
+    margin: auto;
+    margin-top: 42%;
+}
+
+.btn-div {
+  width: fit-content;
+  margin: auto;
+}
+
+.bad-experience, .chart-grid {
+  border: 2px solid black;
+  height: 300px;
+}
+
+.bad-experience > p,
+.chart-grid > p {
+  width: fit-content;
+  margin: auto;
+  margin-top: 20%;
+}
+
 .who-div, 
 .results-div, 
+.bad-experience,
 .what-I-need-to-div,
 .what-I-get,
+.possible-div,
 .cant-I-hire-someone-div,
 .buy-your-app-div,
 .waist-months-div
 {
   max-width: 700px;
   margin: auto;
+  margin-top: 30px;
+  text-align: center;
 }

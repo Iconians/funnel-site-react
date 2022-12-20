@@ -4,7 +4,6 @@ import InputBase from "./Componets/InputBase/InputBase";
 import VideoComponet from "./Componets/VideoComponet/VideoComponet";
 import Section2 from "./Componets/Section2/Section2";
 import Section3 from "./Componets/Section3/Section3";
-import Section4 from "./Componets/Section4/Section4";
 import ScheduleModal from "./Componets/ScheduleModal/ScheduleModal";
 
 function App() {
@@ -24,10 +23,11 @@ function App() {
             <div className="short-description">
               <p>Short Description</p>
             </div>
-            <div>
+            <div className="description-img">
               <img src="" alt="Screen Shot" />
             </div>
-          </div>
+          </div> 
+        
           <div className="guarantee-div">
             <div className="guarantee-statement">
               <p>
@@ -40,11 +40,11 @@ function App() {
               <p>90 day Guarentee</p>
             </div>
           </div>
-          <div>
+          <div className='btn-div'>
             <InputBase />
           </div>
           <div className="who-div">
-            <p>Who is this for?</p>
+            <h3>Who is this for?</h3>
             <p>
               This is specifically for owners of shops that are looking to
               increase their income while reducing the cost of employee per sale
@@ -56,7 +56,6 @@ function App() {
         </section>
         <Section2 />
         <Section3  />
-        <Section4 />
       </div>
     );
   };

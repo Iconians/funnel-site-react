@@ -4,7 +4,7 @@ import { createContext } from "react";
 const AppContext = createContext({});
 
 export const AppProvider = ({ children }) => {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
 
   const handleOpen = () => {
     setShowModal(true);
