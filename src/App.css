@@ -60,10 +60,12 @@
   margin: auto;
 }
 
-.bad-experience, .chart-grid {
+.bad-experience {
   border: 2px solid black;
   height: 300px;
 }
+
+.chart-grid {border: 2px solid black;}
 
 .bad-experience > p,
 .chart-grid > p {

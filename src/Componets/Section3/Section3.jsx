@@ -1,6 +1,7 @@
 import React from "react";
 import InputBase from "../InputBase/InputBase";
 import useExternalScripts from "../../hooks/UseExternalScripts";
+import chartImg from "../../assets/chart.jpg";
 
 const descArray = [
   {
@@ -39,7 +40,8 @@ const Section3 = () => {
       <div className="what-I-get">
         <h3>What do I get?</h3>
         <div className="chart-grid">
-          <p>CHART</p>
+          {/* <p>CHART</p> */}
+          <img src={chartImg} alt="chart" />
         </div>
         <div className="btn-div">
           <InputBase />
