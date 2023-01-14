@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/funnel-react-app/static/css/main.b251a787.css",
+    "main.js": "/funnel-react-app/static/js/main.4ea1b040.js",
+    "static/js/787.30117139.chunk.js": "/funnel-react-app/static/js/787.30117139.chunk.js",
+    "static/media/chart.jpg": "/funnel-react-app/static/media/chart.1b2e1b3f187c11d48c13.jpg",
+    "index.html": "/funnel-react-app/index.html",
+    "main.b251a787.css.map": "/funnel-react-app/static/css/main.b251a787.css.map",
+    "main.4ea1b040.js.map": "/funnel-react-app/static/js/main.4ea1b040.js.map",
+    "787.30117139.chunk.js.map": "/funnel-react-app/static/js/787.30117139.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b251a787.css",
+    "static/js/main.4ea1b040.js"
+  ]
+}
