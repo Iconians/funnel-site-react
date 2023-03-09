@@ -20,7 +20,7 @@ function App() {
         </div>
         <div className="description-div">
           <div className="short-description">
-            <p>Short Description</p>
+            <p>Short Description </p>
           </div>
           <div className="description-img">
             <img src="" alt="Screen Shot" />
