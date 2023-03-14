@@ -48,12 +48,10 @@
   color: black;
   border-radius: 50%;
   width: 185px;
-}
-
-.guarantee-stamp > p {
-  width: fit-content;
-    margin: auto;
-    margin-top: 42%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .btn-div {

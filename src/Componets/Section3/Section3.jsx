@@ -1,6 +1,5 @@
 import React from "react";
 import InputBase from "../InputBase/InputBase";
-import useExternalScripts from "../../hooks/UseExternalScripts";
 import chartImg from "../../assets/chart.jpg";
 
 const descArray = [
@@ -31,10 +30,6 @@ const descArray = [
 ];
 
 const Section3 = () => {
-  useExternalScripts(
-    "https://static.hsappstatic.net/MeetingsEmbed/ex/MeetingsEmbedCode.js"
-  );
-
   return (
     <section>
       <div className="what-I-get">
@@ -57,10 +52,13 @@ const Section3 = () => {
       </div>
 
       <div>
-        <div
-          className="meetings-iframe-container"
-          data-src="https://meetings.hubspot.com/philip-cutting/store-direct?embed=true"
-        ></div>
+        <div className="meetings-iframe-container">
+          <iframe
+            src="https://meetings.hubspot.com/philip-cutting/store-direct?embed=true"
+            title="mainPageSchedule"
+            frameborder="0"
+          ></iframe>
+        </div>
       </div>
     </section>
   );

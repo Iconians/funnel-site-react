@@ -36,7 +36,8 @@ function App() {
             </p>
           </div>
           <div className="guarantee-stamp">
-            <p>90 day Guarentee</p>
+            <div className="stamp-top-words">90 day </div>
+            <div>Guarentee</div>
           </div>
         </div>
         <div className="btn-div">
