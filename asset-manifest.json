@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/funnel-site-react/static/css/main.b251a787.css",
-    "main.js": "/funnel-site-react/static/js/main.77d297de.js",
+    "main.css": "/funnel-site-react/static/css/main.b14bb9c8.css",
+    "main.js": "/funnel-site-react/static/js/main.c1fe6a11.js",
     "static/js/787.30117139.chunk.js": "/funnel-site-react/static/js/787.30117139.chunk.js",
     "static/media/chart.jpg": "/funnel-site-react/static/media/chart.1b2e1b3f187c11d48c13.jpg",
     "index.html": "/funnel-site-react/index.html",
-    "main.b251a787.css.map": "/funnel-site-react/static/css/main.b251a787.css.map",
-    "main.77d297de.js.map": "/funnel-site-react/static/js/main.77d297de.js.map",
+    "main.b14bb9c8.css.map": "/funnel-site-react/static/css/main.b14bb9c8.css.map",
+    "main.c1fe6a11.js.map": "/funnel-site-react/static/js/main.c1fe6a11.js.map",
     "787.30117139.chunk.js.map": "/funnel-site-react/static/js/787.30117139.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b251a787.css",
-    "static/js/main.77d297de.js"
+    "static/css/main.b14bb9c8.css",
+    "static/js/main.c1fe6a11.js"
   ]
 }
