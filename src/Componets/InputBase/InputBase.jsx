@@ -1,16 +1,28 @@
 import React from "react";
-import { useAppContext } from "../../providers/app.provider";
 import "./InputBase.css";
 
 const InputBase = () => {
-  const { handleOpen } = useAppContext();
   return (
-    <input
-      className="input-root"
-      type="button"
-      value="Schedule"
-      onClick={handleOpen}
-    />
+    <div>
+      <button
+        id="SOIBTN_InitialProjectCall"
+        // className="schedule-btn"
+        style={{
+          background: "#006DAF",
+          color: "#ffffff",
+          padding: "10px 20px",
+          border: "1px solid #c8c8c8",
+          font: "bold 14px Arial",
+          cursor: "pointer",
+        }}
+        data-height="580"
+        data-psz="00"
+        data-so-page="InitialProjectCall"
+        data-delay="1"
+      >
+        Schedule an Appointment
+      </button>
+    </div>
   );
 };
 

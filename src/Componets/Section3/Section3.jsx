@@ -53,11 +53,13 @@ const Section3 = () => {
 
       <div>
         <div className="meetings-iframe-container">
-          <iframe
-            src="https://meetings.hubspot.com/philip-cutting/store-direct?embed=true"
-            title="mainPageSchedule"
-            frameborder="0"
-          ></iframe>
+          <div
+            id="SOIDIV_InitialProjectCall"
+            data-so-page="InitialProjectCall"
+            data-height="550"
+            data-style="border: 1px solid #d8d8d8; min-width: 290px; max-width: 900px;"
+            data-psz="00"
+          ></div>
         </div>
       </div>
     </section>

@@ -1,10 +1,10 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
-const useExternalScripts = url => {
+const useExternalScripts = (url) => {
   useEffect(() => {
     const script = document.createElement("script");
     script.src = url;
-    script.async = true 
+    script.async = true;
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);
@@ -12,4 +12,4 @@ const useExternalScripts = url => {
   }, [url]);
 };
 
-export default useExternalScripts
+export default useExternalScripts;

@@ -2,9 +2,14 @@
   padding: 20px 100px;
   margin-top: 50px;
   margin-bottom: 50px;
-  border-radius: 50px;
-  font-size: 25px;
-  background-color: #1f88ff;
-  border: none;
-  cursor: pointer
+
+}
+
+.schedule-btn {
+  background: "#006DAF"; 
+  color: "#ffffff"; 
+  padding: "10px 20px"; 
+  border: "1px solid #c8c8c8"; 
+  font: "bold 14px Arial"; 
+  cursor: "pointer"
 }
